@@ -1,11 +1,10 @@
 function getComputerChoice() {
-  const weapon = ['rock', 'paper', 'scissor']
+  const weapon = ['rock', 'paper', 'scissor'];
+  const random = weapon[(Math.floor(Math.random() * weapon.length))];
 
-  function chooseRandom() {
-    console.log(weapon[(Math.floor(Math.random() * weapon.length))])
-  }
+  console.log(random)
 
-  chooseRandom()
 }
 
 getComputerChoice()
+
