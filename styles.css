@@ -1,4 +1,4 @@
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,4 +14,13 @@ button {
 
 button:hover {
   cursor: pointer;
+} */
+
+.reset {
+  display: none;
+}
+
+img {
+  height: auto;
+  width: 100px;
 }
